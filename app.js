@@ -11,6 +11,8 @@ app.get('/pagina2', (req, res) =>{
     res.sendFile(__dirname + '/front/pagina2.html');
 });
 
+
+
 app.listen(port, () => {
     console.log('El servidor esta en el puerto ' + port);
 });
